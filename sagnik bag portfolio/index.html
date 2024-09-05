@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sagnik Bag Portfolio </title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/c7f64f3dab.js" crossorigin="anonymous"></script>
+</head>
+<body>
+     <div id="header">
+        <div class="container">
+            <nav>
+                <img src="logo.png" class="logo" >
+                
+                <ul id="sidemenu">
+                    <li><a href="#headerf">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li> 
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas solid fa-circle-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>web developer</p>
+                <h1>Hi i'm <span>Sagnik</span><br> from kolkata</h1>
+            </div>
+        </div>
+     </div>
+<!------------------------------about------------------------------------->
+     <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="WhatsApp Image 2024-09-04 at 12.34.25 (1).png" >
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum quas asperiores odit dolores voluptatibus laboriosam ea ipsa explicabo enim alias expedita quos cum inventore molestiae esse earum, unde culpa. Velit.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('education')">Education </p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Frontend</span><br>Html Css Javascript</li>
+                            <li><span>Language</span><br>java,C++</li>
+                    <!---- <li><span>Mern stack</span><br>Mern Stack developer</li>-->
+                            
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>10th (Secondary Education)</span><br>Monoharpur Marx Mrityu Shatabashiki Vidyalaya</li>
+                            <li><span>12th(Higher Secondary Education)</span><br>Ghatal Vidyasagar High School</li>
+                            <li><span>Bachelor of Technology in Computer Science Engineering</span><br>Brainware University</li>
+                            
+                        </ul>
+                    </div>
+                    <!--<div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>dj</span><br>Wed design</li>
+                            <li><span>App developer</span><br>App development</li>
+                            <li><span>Mern stack</span><br>Mern Stack developer</li>
+                            
+                        </ul>
+                    </div>-->
+                </div>
+            </div>
+        </div>
+     </div> 
+
+     <!--------------------------------Services------------------------------------------>
+     <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Wed Design</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Id excepturi quasi eaque rem hic voluptate totam quia itaque nesciunt laborum, eum, natus doloribus iusto inventore, reprehenderit laudantium libero perferendis? Sapiente.</p>
+                    <a href="#">learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-python"></i>
+                    <h2>python devoleper</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Id excepturi quasi eaque rem hic voluptate totam quia itaque nesciunt laborum, eum, natus doloribus iusto inventore, reprehenderit laudantium libero perferendis? Sapiente.</p>
+                    <a href="#">learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-java"></i>
+                    <h2>java devoleper</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Id excepturi quasi eaque rem hic voluptate totam quia itaque nesciunt laborum, eum, natus doloribus iusto inventore, reprehenderit laudantium libero perferendis? Sapiente.</p>
+                    <a href="#">learn more</a>
+                </div>
+            </div>
+        </div>
+     </div>
+     <!--------------------------------Portfolio---------->
+     <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="https://w7.pngwing.com/pngs/50/629/png-transparent-challenge-your-friends-2player-tic-tac-toe-best-tic-tac-toe-tic-tac-toe-games-android-game-angle-text-thumbnail.png">
+                    <div class="layer">
+                        <h3>Tic Tac Toe Game</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dignissimos ipsa, l!</p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="https://w7.pngwing.com/pngs/245/434/png-transparent-currency-converter-foreign-exchange-market-exchange-rate-united-states-dollar-calculator-electronics-text-trademark-thumbnail.png">
+                    <div class="layer">
+                        <h3>Currency Converter Websites</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dignissimos ipsa, labore </p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="https://w7.pngwing.com/pngs/399/154/png-transparent-rock-paper-scissors-rock-paper-scissors-rock-paper-scissors-wizards-rps-io-scissors-game-hand-technic-thumbnail.png">
+                    <div class="layer">
+                        <h3>Stone Paper Seissore</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dignissimos ipsa, labore temporibus, </p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+     </div>
+
+     <!------contact ------>
+     <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact me</h1>
+                    <p><i class="fa-solid fa-envelope"></i>sagnikbag1@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>9064590687</p>
+                    <div class="social-icon">
+                        <a href="https://facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                        <a href=""><i class="fa-brands fa-twitter"></i></a>
+                        <a href=""><i class="fa-brands fa-instagram"></i></a>
+                        <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="my-cv.pdf" class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="mail" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your message"></textarea>
+                        <button type="submit" class="btn btn2">submit</button>
+                    </form>
+                    <span id="msg"></span>    
+                </div>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright <i class="fa-regular fa-copyright"></i> sagnik</p>
+        </div>
+     </div>
+    <script src="script.js">
+       
+    </script>
+   
+    
+</body>
+</html>
